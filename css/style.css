@@ -345,12 +345,12 @@ button {
 .banner_main {
      background: url(../images/banner.png);
      background-repeat: no-repeat;
-     min-height: 700px;
+     min-height: 900px;
      display: flex;
      justify-content: center;
      align-content: center;
      align-items: center;
-     background-size: 100% 100%;
+     background-size: cover;
 }
 
 .text-bg {
