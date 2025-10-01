@@ -1,6 +1,10 @@
+
+
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
+
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
@@ -33,18 +37,16 @@ html {
      scroll-behavior: smooth;
 }
 
-/* --- GLOBAL: tipografía principal y color de texto ajustado --- */
 body {
-     color: #222222;
-     font-size: 15px;
-     font-family: 'Poppins', sans-serif;
+     color: #666666;
+     font-size: 14px;
+     font-family: 'Raleway', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
 
-/* enlaces globales: color primario dorado y transición */
 a {
-     color: #d4af37;
+     color: #1f1f1f;
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -52,9 +54,6 @@ a {
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
-}
-a:hover {
-     color: #b9972e;
 }
 
 h1,
@@ -64,14 +63,13 @@ h4,
 h5,
 h6 {
      letter-spacing: 0;
-     /* usar Poppins en títulos y peso seminegro */
-     font-family: 'Poppins', sans-serif;
-     font-weight: 600;
+     font-weight: normal;
      position: relative;
      padding: 0 0 10px 0;
+     font-weight: normal;
      line-height: normal;
-     color: #222222;
-     margin: 0;
+     color: #111111;
+     margin: 0
 }
 
 h1 {
@@ -87,15 +85,15 @@ h3 {
 }
 
 h4 {
-     font-size: 16px;
+     font-size: 16px
 }
 
 h5 {
-     font-size: 14px;
+     font-size: 14px
 }
 
 h6 {
-     font-size: 13px;
+     font-size: 13px
 }
 
 *,
@@ -114,7 +112,7 @@ h5 a,
 h6 a {
      color: #212121;
      text-decoration: none!important;
-     opacity: 1;
+     opacity: 1
 }
 
 button:focus {
@@ -129,23 +127,19 @@ ol {
      list-style: none;
 }
 
-/* párrafo: color más neutro oscuro */
 p {
      margin: 0px;
-     font-weight: 300;
+     font-weight: 500;
      font-size: 15px;
      line-height: 24px;
-     color: #444444;
 }
 
-/* segunda aparición de a (se mantiene coherente con la primera) */
 a {
-     color: #d4af37;
+     color: #222222;
      text-decoration: none;
      outline: none !important;
 }
 
-/* Mantener transiciones en enlaces y botones */
 a,
 .btn {
      text-decoration: none !important;
@@ -162,23 +156,16 @@ img {
      height: auto;
 }
 
-:focus {
+ :focus {
      outline: 0;
 }
 
-/* btn-custom: mantener transparente pero con borde dorado para coherencia */
 .btn-custom {
      margin-top: 20px;
      background-color: transparent !important;
-     border: 2px solid #d4af37;
-     color: #d4af37;
+     border: 2px solid #ddd;
      padding: 12px 40px;
      font-size: 16px;
-     border-radius: 5px;
-}
-.btn-custom:hover {
-     background-color: #d4af37 !important;
-     color: #fff !important;
 }
 
 .lead {
@@ -295,7 +282,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #d4af37;
+     color: #000;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -313,19 +300,19 @@ button {
      padding-left: 50px;
 }
 
-/* boton sign/reserva: dorado */
 .sign_btn a {
      text-transform: uppercase;
-     background-color: #d4af37;
+     background-color: #fff;
      display: inline-block;
      padding: 6px 35px;
      border-radius: 25px;
-     color: #fff;
+     color: #292e39;
      font-size: 17px;
 }
+
 .sign_btn a:hover {
      color: #fff;
-     background: #b9972e;
+     background: #eec237;
 }
 
 
@@ -396,11 +383,10 @@ button {
      padding-bottom: 60px;
 }
 
-/* CTA en hero: dorado (antes blanco) para coherencia */
 .text-bg a {
      font-size: 17px;
-     background-color: #d4af37;
-     color: #fff;
+     background-color: #fff;
+     color: #000;
      font-weight: 500;
      padding: 13px 0px;
      width: 100%;
@@ -408,13 +394,14 @@ button {
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
-     border-radius: 10px;
+     border-radius: 10px
 }
+
 .text-bg a:hover {
-     background-color: #b9972e;
+     background-color: #eec237;
      color: #fff;
      transition: ease-in all 0.5s;
-     border-radius: 25px;
+     border-radius: 25px
 }
 
 .titlepage {
@@ -466,10 +453,10 @@ button {
      -webkit-appearance: none !important;
 }
 
-/* Botón reservar: dorado */
+
 .book_btn {
      font-size: 17px;
-     background-color: #d4af37;
+     background-color: #000;
      color: #fff;
      font-weight: 500;
      padding: 5px 0px;
@@ -481,11 +468,12 @@ button {
      border-radius: 10px;
      margin-top: 33px;
 }
+
 .book_btn:hover {
-     background-color: #b9972e;
+     background-color: #eec237;
      color: #fff;
      transition: ease-in all 0.5s;
-     border-radius: 25px;
+     border-radius: 25px
 }
 
 
@@ -493,7 +481,6 @@ button {
 
 
 /** Choose  section **/
-
 
 
 /** Choose  section **/
@@ -580,7 +567,6 @@ button {
 /** end our  section **/
 
 
-
 /** about section **/
 
 .about {
@@ -630,10 +616,9 @@ button {
 
 /** end about section **/
 
-/* read more button: dorado */
 .read_more {
      font-size: 17px;
-     background-color: #d4af37;
+     background-color: #000;
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -643,8 +628,9 @@ button {
      transition: ease-in all 0.5s;
      border-radius: 10px;
 }
+
 .read_more:hover {
-     background: #b9972e;
+     background: #eec237;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 25px;
@@ -676,10 +662,9 @@ button {
      text-align: center;
 }
 
-/* testimonial box color ajustado a dorado para coherencia */
 .test_box {
      padding: 30px 25px;
-     background: #d4af37;
+     background: #d7530a;
 }
 
 .testimonial_Carousel .test_box h4 {
@@ -721,7 +706,7 @@ button {
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
-     background: #d4af37;
+     background: #d7530a;
 }
 
 .carousel-control-next-icon,
@@ -733,13 +718,11 @@ button {
 /** end testimonial section **/
 
 
-
 /** footer **/
 
-/* formulario principal - background ajustado a paleta */
 .main_form {
      padding: 50px 30px;
-     background: #d4af37;
+     background: #d7530a;
      margin-top: -260px;
      border-radius: 25px;
 }
@@ -770,11 +753,10 @@ button {
      padding-top: 50px;
 }
 
-/* boton enviar: dorado */
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #d4af37;
+     background-color: #000;
      color: #fff;
      padding: 13px 0px;
      margin: 0 auto;
@@ -784,8 +766,9 @@ button {
      margin-top: 30px;
      border-radius: 10px;
 }
+
 .main_form .send_btn:hover {
-     background-color: #b9972e;
+     background-color: #eec237;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 25px;
@@ -806,10 +789,9 @@ button {
      color: #0c0c0e;
 }
 
-/* Footer: fondo oscuro unificado */
 .footer {
      margin-top: 265px;
-     background: #222222;
+     background: #242423;
      padding-top: 85px;
      text-align: center;
 }
@@ -860,7 +842,7 @@ button {
 }
 
 .copyright a:hover {
-     color: #d4af37;
+     color: #eec237;
 }
 
 
